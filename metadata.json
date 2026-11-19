@@ -1,0 +1,6 @@
+{
+  "name": "Car Sales Quotation Studio",
+  "description": "แอปช่วยเสนอราคารถยนต์สำหรับเซลส์ขายรถ คำนวณเงินดาวน์ ยอดผ่อน สิทธิประโยชน์ และส่งใบเสนอราคาผ่าน LINE รูปภาพ และ PDF",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

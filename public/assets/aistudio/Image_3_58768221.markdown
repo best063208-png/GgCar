@@ -1,0 +1,227 @@
+---
+name: Intelligent Mobility Retail Platform
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#45464d'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#76777d'
+  outline-variant: '#c6c6cd'
+  surface-tint: '#565e74'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#131b2e'
+  on-primary-container: '#7c839b'
+  inverse-primary: '#bec6e0'
+  secondary: '#006591'
+  on-secondary: '#ffffff'
+  secondary-container: '#39b8fd'
+  on-secondary-container: '#004666'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#002113'
+  on-tertiary-container: '#009668'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae2fd'
+  primary-fixed-dim: '#bec6e0'
+  on-primary-fixed: '#131b2e'
+  on-primary-fixed-variant: '#3f465c'
+  secondary-fixed: '#c9e6ff'
+  secondary-fixed-dim: '#89ceff'
+  on-secondary-fixed: '#001e2f'
+  on-secondary-fixed-variant: '#004c6e'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  headline-xl:
+    fontFamily: IBM Plex Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: IBM Plex Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: IBM Plex Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: '0'
+  headline-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 1.5rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system targets modern electric vehicle (EV) enterprise dealerships and sales consultants representing cutting-edge automotive brands such as DEEPAL and CHANGAN. The interface addresses high-velocity enterprise quoting, structured vehicle specification comparisons, test drive scheduling, and complex automotive financing structures (e.g., balloon payments, residual values, trade-in equity, insurance tiers, and government EV subsidies in Thailand).
+
+The visual personality combines technical precision, automotive craftsmanship, and executive clarity. It balances dense, transaction-oriented financial tooling with the sleek, aerodynamic excitement associated with modern intelligent mobility. The emotional tone is authoritative, highly responsive, transparent, and confidence-inspiring‚Äîenabling automotive sales representatives to configure custom vehicle quotes alongside customers on tablets or desktop workstations with zero ambiguity.
+
+The design philosophy blends **High-Precision Enterprise Architecture** with **Sleek Tech-Corporate** aesthetics:
+- **Clean Structure:** Utilitarian, multi-column density framed by fine-line architectural borders.
+- **Electric Accents:** Deliberate, high-energy cyan and electric teal accents evoking battery electrification, telemetry, and smart vehicle intelligence.
+- **Data Clarity:** Uncompromising contrast ratios, structured micro-badges, tabular numeric alignment, and immediate calculated feedback states.
+
+## Colors
+
+The palette establishes an executive, automotive-grade hierarchy where dark slate navy anchors the structural identity, while luminous cyan directs user interaction and emerald highlights financial advantages.
+
+### Roles and Application
+- **Primary Navy (`#0F172A`):** The core corporate identity color. Used for dominant top navigation, header containers, high-emphasis text, primary action buttons, active sidebar states, and major card headings.
+- **Secondary Cyan / Electric Blue (`#0EA5E9` / `#06B6D4`):** Represents electrification and dynamic digital workflows. Applied to interactive focus rings, active step wizard bars, primary selection borders (e.g., chosen trim or battery pack), financial sliders, active toggle states, and key interactive metrics.
+- **Tertiary Emerald (`#10B981`):** Reserved strictly for positive financial delta‚Äîsuch as government EV tax subsidies, promotional discount tags, zero-percent interest incentives, fuel/energy savings indicators, and customer trade-in credit adjustments.
+- **Neutral Framework:**
+  - Canvas Background: `#F8FAFC` provides an ultra-clean, glare-free working surface.
+  - Surface Containers: `#FFFFFF` for primary cards and configuration sheets.
+  - Sub-surfaces & Inactive Wells: `#F1F5F9` for read-only quote summaries, specification matrices, and input backgrounds.
+  - Borders & Grid Lines: `#E2E8F0` for interior division lines; `#CBD5E1` for actionable component borders.
+  - Body & Auxiliary Text: `#334155` for high-legibility body copy and `#64748B` for secondary labels, metadata, and currency markers (‡∏ø).
+
+### Functional Color Guidelines
+Avoid large flood fills of secondary cyan; reserve it for active paths, telemetry markers, and focused data points. Never use green for decorative elements‚Äîit must solely denote economic benefit, approved credit status, or positive margin calculations.
+
+## Typography
+
+The typography architecture uses **IBM Plex Sans** (with full fallback to IBM Plex Sans Thai), offering optimal legibility for complex bilingual environments containing both Thai phrasing (e.g., ‡πÄ‡∏á‡∏¥‡∏ô‡∏î‡∏≤‡∏ß‡∏ô‡πå, ‡∏Ñ‡πà‡∏≤‡∏Ñ.)âNä‚ÀÇ‚ãÇÊÇ‚SÇ‚–∏≠‡∏ô, ‡∏î‡∏≠‡∏Å‡πÄ‡∏ö‡∏µ‡πâ‡∏¢‡∏û‡∏¥‡πÄ‡∏®‡∏©) and technical Latin automotive nomenclature (e.g., DEEPAL L07, AWD, 66.8 kWh, NEDC).
+
+### Typesetting Rules
+- **Tabular Figures for Finance:** All currency amounts (THB/‡∏ø), interest rates (%), insurance premiums, and telemetry readouts must use tabular numerals (`tnum`) to ensure perfect vertical alignment across quote matrices and repayment tables.
+- **Thai Rhythm & Baseline Alignment:** Because Thai script contains ascenders, tone marks, and descenders, maintain generous relative line heights (minimum 1.5x on body copy) to prevent vertical collision between stacked loan items or legal disclosures.
+- **Micro-Labels:** Use uppercase for English metadata labels (e.g., `VIN`, `NEDC`, `MSRP`, `VAT INC.`) in `label-sm` with slight tracking, while Thai companion labels retain natural capitalization at medium weight (`fontWeight: 500`).
+
+## Layout & Spacing
+
+The layout employs a high-density, multi-pane enterprise structure engineered for simultaneous vehicle visualizer tracking, real-time recalculation of down payments, and itemized accessory inclusions.
+
+### Layout Mechanics
+- **Grid Architecture:** 
+  - **Desktop (‚â• 1280px):** 12-column asymmetric grid. Standard split utilizes a 7-column configuration workspace (model selector, color picker, accessory check-matrix) alongside a 5-column sticky financial calculation sidebar (down payment slider, loan term tenure, monthly repayment, down payment subtotal, insurance tiers, and PDF quote generator CTA).
+  - **Tablet (768px - 1279px):** 8-column layout. Sales representatives use full-width step wizards with collapsible drawer panels for the financial breakdown sheet.
+  - **Mobile (< 768px):** Single-column stacked stream. Critical monthly calculation anchors to a persistent sticky bottom utility bar showing the monthly installment and the "Send Official Quote" primary CTA.
+- **Spacing Density:** 
+  - `space-xs` (4px) and `space-sm` (8px) govern micro-interactions, badge padding, and field label offsets.
+  - `space-md` (16px) establishes internal card padding and input field grouping.
+  - `space-lg` (24px) separates major vehicle configuration modules (e.g., powertrain selection vs. interior package).
+  - `space-xl` (32px) separates primary architectural sections.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated through **low-contrast architectural outlines combined with cool ambient shadows**, keeping the workspace structured, sharp, and data-dense without visual clutter.
+
+### Hierarchy Tiers
+- **Tier 0 (Base Canvas):** `#F8FAFC`. Completely flat base workspace.
+- **Tier 1 (Surface Cards & Worksheets):** `#FFFFFF` paired with a 1px border of `#E2E8F0` and an ultra-subtle ambient shadow: `0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.02)`.
+- **Tier 2 (Interactive Floating Tools & Sticky Calculation Bars):** `#FFFFFF` bordered with `#CBD5E1` and elevated using `0 4px 12px -2px rgba(15, 23, 42, 0.08), 0 2px 6px -2px rgba(15, 23, 42, 0.04)`.
+- **Tier 3 (Modals, Customer Credit Overlays, EV Subsidies Details):** Centered surfaces floating over `#0F172A` with a 40% alpha backdrop blur (`backdrop-blur-sm`), casting `0 20px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.06)`.
+- **Active Selection Depth:** Selected vehicle trims, rim options, or payment plans do not rely on elevation jumps. Instead, they activate a 2px crisp border of `#0EA5E9` alongside a very faint internal tint (`rgba(14, 165, 233, 0.04)`).
+
+## Shapes
+
+The design system adopts a **Soft (`1`)** shape language (base radius `0.25rem` / 4px, `rounded-lg` at `0.5rem` / 8px, and `rounded-xl` at `0.75rem` / 12px). This creates an exacting, engineered aesthetic aligned with automotive bodywork and structural dashboards, deliberately avoiding bubbly or consumer-casual curves.
+
+### Corner Radius Allocation
+- **Micro Radius (2px - 4px):** Form controls, text inputs, table headers, financial matrix cells, and inline status badges.
+- **Medium Radius (8px):** Configuration cards, specification group containers, interactive trim selectors, and modal dialogs.
+- **Specialized Pill Radius:** Reserved exclusively for vehicle availability pill-tags (e.g., "‡∏û‡∏†.bx.+x.(x.*∏.b8.!ääﬁâ¢Úñ‚7Fˆ6≤"¬.àéäﬁàBÊÇ‚óÇÊ'Ç‚úÄºÅIïÕï…Ÿïêà§ÅÖπêÅÖç—•ŸîÅÕ±•ëï»Å—°’µâÃ∏((ååÅΩµ¡Ωπïπ—Ã((åååÄƒ∏Å	’——ΩπÃÄòÅQ…•ùùï…Ã(¥Ä®©A…•µÖ…‰Åç—•Ω∏Ä°ïπï…Ö—îÅΩ…µÖ∞ÅE’Ω—îÄºÅA…•π–ÅA§Ë®®Å	Öç≠ù…Ω’πêÅÄå¡ƒ‹…Ä∞Å—ï·–ÅÄçÄ∞ÅâΩ…ëï»µ…Öë•’ÃÄŸ¡‡∞ÅôΩπ–µ›ï•ù°–Äÿ¿¿∏Å=∏Å°ΩŸï»∞ÅâÖç≠ù…Ω’πêÅÕ°•ô—ÃÅ—ºÅÄå≈»‰Õ	Ä∏ÅΩç’ÃÅÕ—Ö—îÅë•Õ¡±ÖÂÃÅÖ∏ÅΩ’—ï»Å…•πúÅ•∏ÅÄå¡’ÂÄÄ†…¡‡ÅΩôôÕï–§∏(¥Ä®©MïçΩπëÖ…‰ÄºÅQïç°π•çÖ∞Åç—•Ω∏Ä°ëêÅ’Õ—Ω¥ÅççïÕÕΩ…‰ÄºÅM¡±•–Å•πÖπç•πú§Ë®®Å	Öç≠ù…Ω’πêÅÄçÄ∞ÅâΩ…ëï»Ä≈¡‡ÅÕΩ±•êÅÄç	’≈Ä∞Å—ï·–ÅÄåÃÃ–ƒ‘’Ä∏Å=∏Å°ΩŸï»∞ÅâÖç≠ù…Ω’πêÅÄç·ÄÅÖπêÅâΩ…ëï»ÅÄå‰—Õ·Ä∏(¥Ä®©ççïπ–Åç—•Ω∏Ä°¡¡±‰ÅXÅA…ΩµΩ—•Ω∏§Ë®®Å	Öç≠ù…Ω’πêÅÄå¡’ÂÄ∞Å—ï·–ÅÄçÄ∏Å!ΩŸï»ÅÕ—Ö—îÅÄå¿»‡—›Ä∏((åååÄ»∏ÅE’Ω—Ö—•Ω∏Å%π¡’–Å•ï±ëÃÄòÅ•πÖπç•Ö∞ÅM±•ëï…Ã(¥Ä®©9’µï…•åÅ’……ïπç‰Å%π¡’—ÃË®®Å1ïô–µÖ±•ùπïêÅQ!Åç’……ïπç‰Å•πë•çÖ—Ω»Ä°ÉÇ‚˝Ä§Å•∏Åô•·ïêÅÄåÿ–‹–·	Ä∞Å›•—†Å…•ù°–µÖ±•ùπïêÅâΩ±êÅ—Öâ’±Ö»Å•π¡’–Åπ’µâï…Ã∏Å	Öç≠ù…Ω’πêÅÄçÄ∞Ä≈¡‡ÅâΩ…ëï»ÅÄç	’≈Ä∞ÅôΩç’ÃÅâΩ…ëï»ÅÄå¡’ÂÄÅ›•—†ÄÕ¡‡ÅôΩç’ÃÅ…•πúÅÅ…ùâÑ†ƒ–∞Äƒÿ‘∞Ä»ÃÃ∞Ä¿∏ƒ‘•Ä∏(¥Ä®©1ΩÖ∏ÅΩ›∏ÅAÖÂµïπ–ÄòÅQï…¥ÅM±•ëï…ÃË®®ÅQ…Öç¨Å°ï•ù°–ÄŸ¡‡∞Åô•±±ïêÅ¡Ω…—•Ω∏ÅÄå¡’ÂÄ∞Å’πô•±±ïêÅ¡Ω…—•Ω∏ÅÄç…·¡Ä∏Å…ÖùùÖâ±îÅ—°’µàÄƒ·¡‡Åë•Öµï—ï»Å•∏ÅÄå¡ƒ‹…ÄÅ›•—†ÅÖ∏Å•ππï»Ä—¡‡Å›°•—îÅëΩ–∞ÅôïÖ—’…•πúÅÖç—•ŸîÅ•πç…ïµïπ–Å—•ç¨ÅµÖ…≠ÃÅÖ–Äƒ‘î∞Ä»¿î∞Ä»‘î∞ÅÖπêÄÃ¿î∏((åååÄÃ∏ÅQ…•¥∞ÅΩ±Ω»∞ÅÖπêÅAÖç≠ÖùîÅMï±ïç—Ω…ÃÄ°Ö…ëÃ§(¥Ä®©Mï±ïç—Öâ±îÅ=¡—•Ω∏ÅÖ…ëÃË®®Å]°•—îÅâÖÕî∞Ä≈¡‡ÅâΩ…ëï»ÅÄç…·¡Ä∞Ä·¡‡Å¡Öëë•πú∏Å•Õ¡±ÖÂÃÅÕ¡ïç•ô•çÖ—•Ω∏Å±Öâï∞∞Å¡Ω›ï…—…Ö•∏Åëï—Ö•±Ã∞ÅÖπêÅëï±—ÑÅ¡…•ç•πúÄ°Ä†∏ø0` or `+‡∏ø40,000`).
+- **Selected State:** Border color `#0EA5E9` (2px thickness), background `rgba(14, 165, 233, 0.02)`. Displays a top-right cyan check indicator.
+
+### 4. Micro-Badges & Status Labels
+- **EV Subsidy & Government Incentive:** Background `#ECFDF5`, border 1px solid `#A7F3D0`, text `#065F46`, font-size 11px, weight 600.
+- **Stock Status Badge:**
+  - Ready for Delivery: `#EFF6FF` background, `#1D4ED8` text.
+  - Production Queue / Backorder: `#FFFBEB` background, `#B45309` text.
+
+### 5. Checkboxes, Radio Buttons & Add-on Lists
+- **Accessory Checklist:** Row item height 44px with a subtle hover tint `#F8FAFC`. Checkbox square (16px), 1px border `#CBD5E1`, checked background `#0F172A` with white checkmark. The item price is pinned right in tabular figures.
+
+### 6. Sticky Financial Repayment Summary Card
+- **Structure:** Anchored in the right workspace pane. Contains a high-contrast dark header section showing:
+  - Calculated Monthly Installment (‡πÉ‡∏´‡∏ç‡πà‡∏û‡∏¥‡πÄ‡∏®‡∏© - 28px bold tabular number in `#0F172A` or inverted `#0EA5E9`).
+  - Total Interest Paid over duration.
+  - Down Payment subtotal in Thai Baht.
+  - Direct action toggles for VAT inclusive/exclusive views and comprehensive first-class EV insurance riders.
